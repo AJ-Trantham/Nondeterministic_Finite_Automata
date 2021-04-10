@@ -81,6 +81,10 @@ public class NFAState extends State {
         return this.name.equals(nfaState.name);
     }
 
+    /**
+     *  Returns the dfa name with []s
+     * @return String dfaName
+     */
     public String getDFAName() {
         return "[" + this.getName() + "]";
     }
